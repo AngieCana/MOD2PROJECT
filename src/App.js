@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Accordion from './components/Accordion';
+import Banner from "./components/Banner"
+import {accordionData} from "./utils/content"
+import Carousel from './components/carousel';
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Ohio State Football FAQ</h1>
+      <div className="accordion">
+        <Banner/>
+        <Carousel/>
+        {accordionData.map(({ title, content }) => (
+          <Accordion title={title} content={content}/>
+          
+        
+         ))}
+      </div>
     </div>
   );
-}
+};
 
 export default App;
