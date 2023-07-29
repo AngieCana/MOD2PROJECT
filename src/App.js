@@ -3,12 +3,13 @@ import Accordion from './components/Accordion';
 import Banner from "./components/Banner"
 import {accordionData} from "./utils/content"
 import Carousel from './components/carousel';
+import Api from './components/api';
 
 
 const App = () => {
   return (
     <div>
-      <h1>Ohio State Football FAQ</h1>
+      <h1 className='header text'>Ohio State Football FAQ</h1>
       <div className="accordion">
         <Banner/>
         <Carousel/>
@@ -17,6 +18,7 @@ const App = () => {
           
         
          ))}
+        <Api/>
       </div>
     </div>
   );

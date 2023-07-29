@@ -7,12 +7,7 @@
   body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
-    background: rgb(238, 174, 202);
-    background: radial-gradient(
-      circle,
-      rgba(238, 174, 202, 1) 0%,
-      rgba(199, 233, 148, 1) 100%
-    );
+    background: whitesmoke
   }
   
   h1 {
@@ -30,11 +25,11 @@
     flex-direction: row;
     justify-content: space-between;
     cursor: pointer;
-    background-color: #21aeca;
+    background-color: #BB0000;
   }
   
   .accordion-title:hover {
-    background-color: #3ab4cc;
+    background-color: #BB0000;
   }
   
   .accordion-title,
@@ -43,7 +38,7 @@
   }
   
   .accordion-content {
-    background-color: #39b9d2;
+    background-color: #666666;
   }
   
   @media screen and (max-width: 700px) {
@@ -101,3 +96,29 @@
     right: 5%;
   }
   
+  .slideshow{
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 500px;
+
+  }
+
+  .slide{
+    height: 400px;
+    width: 100%;
+    border-radius: 40px;
+  }
+
+  .header{
+    background-image: url('https://d31sxl6qgne2yj.cloudfront.net/wordpress/wp-content/uploads/20190101192457/Ohio-State-University.jpg');
+  }
+
+  .text{
+    color: white;
+    border: black;
+    
+  }
+
+  h2{
+    text-align: center;
+  }

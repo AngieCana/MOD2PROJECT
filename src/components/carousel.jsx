@@ -1,12 +1,7 @@
 import React, {useState} from "react";
+import images from "./images";
 
-const images = [
-    "https://images.pexels.com/photos/3836292/pexels-photo-3836292.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-    "https://images.pexels.com/photos/2792157/pexels-photo-2792157.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-    "https://images.pexels.com/photos/1166209/pexels-photo-1166209.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-    "https://images.pexels.com/photos/1661179/pexels-photo-1661179.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-    "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-  ];
+<images/>
   
   export default function Carousel() {
     const [current, setCurrent] = useState(0);
@@ -22,7 +17,7 @@ const images = [
     return (
       <div>
         <h2>Image Gallery</h2>
-        <div className="slider">
+        <div className="slider slideshow">
           <div className="left-arrow" onClick={prevSlide}>
             ⬅
           </div>
@@ -32,7 +27,7 @@ const images = [
           {images.map(
             (image, index) =>
               current === index && (
-                <div key={image} className="slide">
+                <div key={image} className="slide sliderimg">
                   <img src={image} alt="images" />
                 </div>
               )
