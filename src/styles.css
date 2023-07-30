@@ -13,6 +13,7 @@
   h1 {
     text-align: center;
     margin: 2rem 0 4rem 0;
+  
   }
   
   .accordion {
@@ -100,6 +101,8 @@
     margin: 0 auto;
     overflow: hidden;
     max-width: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
   }
 
@@ -110,7 +113,12 @@
   }
 
   .header{
-    background-image: url('https://d31sxl6qgne2yj.cloudfront.net/wordpress/wp-content/uploads/20190101192457/Ohio-State-University.jpg');
+    display: flex;
+    align-items: center;
+    background-color: black;
+    text-align: center;
+
+
   }
 
   .text{
@@ -119,6 +127,23 @@
     
   }
 
-  h2{
+  h1,h2{
     text-align: center;
   }
+
+
+.socials{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.facebook, .instagram, .twitter{
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+}
+
+.hbanner{
+  position: absolute;
+  top: 0;
+}

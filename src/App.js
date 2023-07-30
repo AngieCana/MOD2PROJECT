@@ -3,7 +3,7 @@ import Accordion from './components/Accordion';
 import Banner from "./components/Banner"
 import {accordionData} from "./utils/content"
 import Carousel from './components/carousel';
-import Api from './components/api';
+import SocialMedia from './components/SocialMedia';
 
 
 const App = () => {
@@ -18,7 +18,7 @@ const App = () => {
           
         
          ))}
-        <Api/>
+        <SocialMedia/>
       </div>
     </div>
   );
