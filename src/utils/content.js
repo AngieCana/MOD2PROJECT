@@ -1,29 +1,19 @@
 export const accordionData = [
     {
-      title: 'Section 1',
-      content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis sapiente
-      laborum cupiditate possimus labore, hic temporibus velit dicta earum
-      suscipit commodi eum enim atque at? Et perspiciatis dolore iure
-      voluptatem.`
+      title: "When was OSU's football team founded?",
+      content: "OSU's football team was founded on 1890."
     },
     {
-      title: 'Section 2',
-      content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam
-      reprehenderit nam assumenda voluptatem ut. Ipsum eius dicta, officiis
-      quaerat iure quos dolorum accusantium ducimus in illum vero commodi
-      pariatur? Impedit autem esse nostrum quasi, fugiat a aut error cumque
-      quidem maiores doloremque est numquam praesentium eos voluptatem amet!
-      Repudiandae, mollitia id reprehenderit a ab odit!`
+      title: "What is OSU's mascot?",
+      content: "Brutus Buckeye is OSU's campus mascot."
     },
     {
-      title: 'Section 3',
-      content: `Sapiente expedita hic obcaecati, laboriosam similique omnis architecto ducimus magnam accusantium corrupti
-      quam sint dolore pariatur perspiciatis, necessitatibus rem vel dignissimos
-      dolor ut sequi minus iste? Quas?`
+      title: "What was Ohio's State University's biggest win? ",
+      content: "OSU's biggest win was against Pittsburgh in 1996. The score was 72-0."
     },
     {
-      title: 'Section 4',
-      content: `Lorem`
+      title: "How many games has OSU won since 2000?",
+      content: `OSU has won 8 national championships.`
     }
   ];
 
