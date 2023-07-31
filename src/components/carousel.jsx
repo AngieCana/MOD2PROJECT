@@ -16,8 +16,8 @@ import images from "./images";
   
     return (
       <div>
-        <h2>Image Gallery</h2>
-        <div className="slider slideshow">
+        <h2 className="img-gallery">Image Gallery</h2>
+        <div className="slider slideshow carousel-container">
           <div className="left-arrow" onClick={prevSlide}>
             ⬅
           </div>

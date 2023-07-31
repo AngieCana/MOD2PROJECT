@@ -3,7 +3,7 @@ import React from 'react'
 function SocialMedia() {
   return (
     <div className='socials'>
-        <p>Follow the team!</p>
+        <p className='social-text'>Follow the team!</p>
         <a href='https://www.facebook.com/ohiostatefb/'>
         <img src="https://www.edigitalagency.com.au/wp-content/uploads/Facebook-logo-blue-circle-large-transparent-png.png" className='facebook'/>
         </a>
